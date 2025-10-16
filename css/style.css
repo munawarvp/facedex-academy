@@ -523,7 +523,7 @@ a[href^=tel] {
 }
 
 .btn-primary {
-  background: #ffb600;
+  background: #094d56;
 }
 
 .btn-dark {
@@ -533,7 +533,7 @@ a[href^=tel] {
 .btn-primary:hover,
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
-  background: #111;
+  background: #404142;
   color: #fff;
 }
 
@@ -576,7 +576,7 @@ a[href^=tel] {
 /* Top Bar
 ================================================== */
 .top-bar {
-  padding: 8px 0;
+  padding: 4px 0;
   background: #ebebeb;
   position: relative;
 }
@@ -1037,7 +1037,7 @@ ul.navbar-nav > li > a {
 }
 
 .dropdown-menu-large > li > ul > li.active > a {
-  color: #ffb600 !important;
+  color: #094d56 !important;
 }
 
 .navbar-nav > li > .dropdown-menu a {
@@ -1070,7 +1070,7 @@ ul.navbar-nav > li > a {
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus {
-  color: #ffb600;
+  color: #094d56;
 }
 
 @media (min-width: 991px) {
@@ -1095,7 +1095,7 @@ ul.navbar-nav > li > a {
 .dropdown-menu > .active > a:focus,
 .dropdown-menu > .active > .dropdown-menu > .active > a {
   background: none;
-  color: #ffb600;
+  color: #094d56;
 }
 
 /*-- Nav Search start --*/
@@ -1205,7 +1205,7 @@ ul.navbar-nav > li > a {
 
 .header-get-a-quote .btn-primary:hover {
   background: #272d33;
-  color: #ffb600 !important;
+  color: #fff !important;
 }
 
 ul.navbar-nav > li.header-get-a-quote:hover > a:after {
@@ -1264,7 +1264,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .slide-title-box {
   font-size: 16px;
   line-height: 39px;
-  background: #ffb600;
+  background: #094d56;
   color: #fff;
   display: inline-block;
   padding: 0 15px;
@@ -1360,11 +1360,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .slider.border {
   background: none;
-  border: 2px solid #ffb600 !important;
+  border: 2px solid #094d56 !important;
 }
 
 .slider.border:hover {
-  background: #ffb600;
+  background: #094d56;
   border: 2px solid transparent;
 }
 
@@ -1542,7 +1542,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .call-to-action-box .action-style-box {
-  background: #ffb600;
+  background: #094d56;
   padding: 30px;
 }
 
