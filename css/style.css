@@ -2000,7 +2000,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   z-index: 1;
 }
 
-.shuffle-item .project-img-container .project-item-info-content {
+.shuffle-item .project-img-container .project-item-info-content p {
   opacity: 0;
   -webkit-transform: perspective(1px) translate3d(0, 15px, 0);
           transform: perspective(1px) translate3d(0, 15px, 0);
@@ -2020,16 +2020,21 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .shuffle-item .project-img-container .project-item-info-content .project-cat {
-  background: #ffb600;
+  background: #094d56;
   display: inline-block;
   padding: 2px 8px;
   font-weight: 700;
   color: #000;
-  font-size: 10px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
-.shuffle-item .project-img-container:hover .project-item-info-content {
+.shuffle-item .project-img-container .project-item-info-content .project-cat:hover {
+  transition: all 0.5s;
+  background: transparent;
+}
+
+.shuffle-item .project-img-container:hover .project-item-info-content p {
   opacity: 1;
   -webkit-transform: perspective(1px) translate3d(0, 0, 0);
           transform: perspective(1px) translate3d(0, 0, 0);
