@@ -1760,6 +1760,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   width: 45px;
   height: 45px;
 }
+
+.ts-our-service-box-img img {
+  width: 65px;
+  height: 75px;
+}
 /* Service box 
 
 .ts-service-box .ts-service-icon i {
