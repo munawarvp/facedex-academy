@@ -1815,6 +1815,64 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   padding: 0 20px;
 }
 */
+.who-we-are {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  position: relative;
+  width: 275px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.team-member img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* Title always visible */
+.member-title {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+/* Description hidden by default */
+.member-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(30, 30, 30, 0.499);
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+/* Hover effects */
+.team-member:hover img {
+  transform: scale(1.05);
+}
+
+.team-member:hover .member-description {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Icon squre */
 .ts-service-icon.icon-round i {
   font-size: 24px;
